@@ -1,9 +1,15 @@
 <?php
-// Plugin Name: Developer Contact Info
-// Version: 1.0
-// Author: Jacob Charles Wilson
-// Author URI: https://jacobcharleswilson.com
-// Adds a widget to the wordpress dashboard detailing my contact info.
+
+// Plugin Name:			Developer Contact Info
+// Plugin URI:			https://github.com/jclwilson/wp-contact-widget
+// Description:			Displays Jacob's contact info on the WordPress homescreen. Useful for getting in touch when things break.
+// Version:				1.0.0
+// Author:				Jacob Charles Wilson
+// Author URI:			https://jacobcharleswilson.com
+// License:				GNU General Public License v2
+// License URI:			http://www.gnu.org/licenses/gpl-2.0.html
+// Text Domain:			wp-contact-widget
+// GitHub Plugin URI:	https://github.com/jclwilson/wp-contact-widget
 
 function jclwilson_contact_widget() {
 	global $wp_meta_boxes;
