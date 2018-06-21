@@ -15,7 +15,7 @@ function jclwilson_contact_widget() {
 	global $wp_meta_boxes;
 
 	function custom_dashboard_help() {
-		echo '<p>This WordPress theme built by Jacob Charles Wilson (@jclwilson).</p><p>The code is stored on Github at <a href="https://github.com/jclwilson/">github.com/jclwilson</a>.</p><p>Still need help? Email <a href="mailto:hello@jacobcharleswilson.com">hello@jacobcharleswilson.com</a>.</p>';
+		echo '<p>This WordPress theme was built by Jacob Charles Wilson (@jclwilson).</p><p>The code is stored on Github at <a href="https://github.com/jclwilson/">github.com/jclwilson</a>.</p><p>Still need help? Email <a href="mailto:hello@jacobcharleswilson.com">hello@jacobcharleswilson.com</a>.</p>';
 	}
 	wp_add_dashboard_widget('custom_help_widget', 'About this website', 'custom_dashboard_help');
 }
